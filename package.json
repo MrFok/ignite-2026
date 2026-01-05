@@ -1,0 +1,35 @@
+{
+  "name": "ignite-2026-workbook-generator",
+  "version": "1.0.0",
+  "description": "IGNITE 2026 Worksheet PDF Generator",
+  "main": "src/generate.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ignite-2026-workbook-generator.git"
+  },
+  "scripts": {
+    "build": "npx babel src -d dist",
+    "generate": "npm run build && node dist/generate.js",
+    "combine": "node src/combine.js",
+    "test": "npm run build && node dist/test.js"
+  },
+  "keywords": [
+    "pdf",
+    "worksheet",
+    "react-pdf"
+  ],
+  "author": "DrFok",
+  "license": "ISC",
+  "dependencies": {
+    "@react-pdf/renderer": "^4.3.0",
+    "pdf-lib": "^1.17.1",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/node": "^7.28.0",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5"
+  }
+}
