@@ -5,9 +5,6 @@ package-lock.json
 # Build output
 dist/
 
-# Generated PDFs
-output/pdfs/*.pdf
-
 # OS files
 .DS_Store
 Thumbs.db

@@ -32,7 +32,7 @@ Using **`@react-pdf/renderer`** for rendering the PDFs and **`pdf-lib`** for com
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/MrFok/ignite-2026.git
 cd worksheet-generator
 ```
 
